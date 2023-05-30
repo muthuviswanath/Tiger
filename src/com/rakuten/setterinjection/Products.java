@@ -8,6 +8,16 @@ public class Products {
 		System.out.println(this.qty);
 		System.out.println(this.price);
 	}
+
 	public Products() {}
+
+	
+	public void test() {
+		
+		System.out.println("Welcome to IT");
+	}
+	
+	
+
 	
 }
