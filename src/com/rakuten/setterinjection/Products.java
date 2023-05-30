@@ -2,15 +2,12 @@ package com.rakuten.setterinjection;
 
 public class Products {
 
-	private int pid;
-	private String pname;
-	private int qty;
-	private double price;
-	public Products(int pid, String pname, int qty, double price) {
-		this.pid = pid;
-		this.pname = pname;
-		this.qty = qty;
-		this.price = price;
+	
+	public void display() {
+		System.out.println(this.pid);
+		System.out.println(this.pname);
+		System.out.println(this.qty);
+		System.out.println(this.price);
 	}
 	
 	
