@@ -10,6 +10,11 @@ public class Products {
 		System.out.println(this.price);
 	}
 	
+	public void test() {
+		
+		System.out.println("Welcome to IT");
+	}
+	
 	
 	
 }
