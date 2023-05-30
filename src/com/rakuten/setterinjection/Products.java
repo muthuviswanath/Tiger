@@ -12,6 +12,7 @@ public class Products {
 		this.qty = qty;
 		this.price = price;
 	}
+	public Products() {}
 	
 	
 	
